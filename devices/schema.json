@@ -1,0 +1,9 @@
+{
+    "columns": [
+        {
+            "ColumnName": "manufacturer",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
