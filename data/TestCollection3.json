@@ -1,0 +1,36 @@
+{
+    "app_id": "ced288ad0bfcb5d1cbc9bddc917e",
+    "collection_id": "e6dc8aad0b90bec2ec9fc197ba9e01",
+    "items": [],
+    "name": "TestCollection3",
+    "permissions": {
+        "Uploader": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "address",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "day_of_week",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "price",
+            "ColumnType": "double",
+            "PK": false
+        },
+        {
+            "ColumnName": "is_vip",
+            "ColumnType": "bool",
+            "PK": false
+        }
+    ]
+}
