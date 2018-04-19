@@ -1,0 +1,10 @@
+{
+    "auth": true,
+    "deployments": [],
+    "description": "",
+    "messaging_url": "platform.clearblade.com:1883",
+    "name": "Bulk Upload",
+    "platform_url": "https://platform.clearblade.com",
+    "system_key": "ced288ad0bfcb5d1cbc9bddc917e",
+    "system_secret": "CED288AD0B8EB8E1EC9BCA83B944"
+}
