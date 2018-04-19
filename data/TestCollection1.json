@@ -1,0 +1,16 @@
+{
+    "app_id": "ced288ad0bfcb5d1cbc9bddc917e",
+    "collection_id": "c6dc8aad0bc6d78ba3c282abd8b001",
+    "items": [],
+    "name": "TestCollection1",
+    "permissions": {
+        "Uploader": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        }
+    ]
+}
