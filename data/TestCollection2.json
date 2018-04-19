@@ -1,0 +1,66 @@
+{
+    "app_id": "ced288ad0bfcb5d1cbc9bddc917e",
+    "collection_id": "d4dc8aad0bb4add1ea83bbb7af6b",
+    "items": [],
+    "name": "TestCollection2",
+    "permissions": {
+        "Uploader": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "imanufacturer",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "impartnumber",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "iserialnumber",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "isimcategory",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "iparttype",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "idescription",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "igroup",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "ilocation",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "isold",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "id",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
