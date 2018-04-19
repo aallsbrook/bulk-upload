@@ -1,0 +1,523 @@
+{
+    "config": {
+        "cols": {
+            "lg": 12,
+            "md": 10,
+            "sm": 6,
+            "xs": 4,
+            "xxs": 2
+        },
+        "currentBreakpointForFlyoutWidgets": "lg",
+        "currentBreakpointForPanes": "lg",
+        "currentBreakpointsForWidgets": {
+            "c4349a0e-3fe1-42a4-b17c-87bad34377df": "lg"
+        },
+        "datasources": {
+            "9023167a-0d50-4f7a-bbe2-1c2cba13b8d3": {
+                "id": "9023167a-0d50-4f7a-bbe2-1c2cba13b8d3",
+                "name": "Batch_Util",
+                "settings": {
+                    "CALL_ON_LOAD": {
+                        "target": {
+                            "value": false
+                        }
+                    },
+                    "SUPPRESS_DATASOURCE_ERRORS": {
+                        "target": {
+                            "value": false
+                        }
+                    },
+                    "code_name": "Batch_Util",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "b659fc16-1cef-4f2f-8870-f9ec22773e7b": {
+                "id": "b659fc16-1cef-4f2f-8870-f9ec22773e7b",
+                "name": "pageData",
+                "settings": {
+                    "defaultValue": "{}"
+                },
+                "type": "LOCAL_DATASOURCE_PLUGIN"
+            }
+        },
+        "externalScripts": [
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": false,
+                "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.8.9/jquery.csv.min.js"
+            }
+        ],
+        "flyoutWidgetLayout": {
+            "lg": [],
+            "md": [],
+            "sm": [],
+            "xs": [],
+            "xxs": []
+        },
+        "headerWidgetLayout": {
+            "lg": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 42,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 46,
+                    "x": 185,
+                    "y": 0
+                }
+            ],
+            "md": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 36,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 39,
+                    "x": 154,
+                    "y": 0
+                }
+            ],
+            "sm": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 34,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 37,
+                    "x": 117,
+                    "y": 0
+                }
+            ],
+            "xs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 28,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 31,
+                    "x": 71,
+                    "y": 0
+                }
+            ],
+            "xxs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 32,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 33,
+                    "x": 47,
+                    "y": 0
+                }
+            ]
+        },
+        "pages": {
+            "Home": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "Home",
+                "isChild": false,
+                "isParam": false,
+                "name": "Home",
+                "path": ""
+            }
+        },
+        "paneGridWidgetLayouts": {
+            "c4349a0e-3fe1-42a4-b17c-87bad34377df": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "eaee6323-b2cd-40e1-8aba-0e6a54addc7e",
+                        "minH": 3,
+                        "w": 13,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            }
+        },
+        "paneLayouts": {
+            "Home": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "c0e9dcc4-2bf1-4b3d-bf98-f485d30a4a8a",
+                        "moved": false,
+                        "static": false,
+                        "w": 8,
+                        "x": 2,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            }
+        },
+        "panes": {
+            "c0e9dcc4-2bf1-4b3d-bf98-f485d30a4a8a": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "c0e9dcc4-2bf1-4b3d-bf98-f485d30a4a8a",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "c4349a0e-3fe1-42a4-b17c-87bad34377df",
+                    "tabIds": [
+                        "c4349a0e-3fe1-42a4-b17c-87bad34377df"
+                    ],
+                    "tabTitles": {
+                        "c4349a0e-3fe1-42a4-b17c-87bad34377df": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            }
+        },
+        "savedPortalExists": true,
+        "theme": {
+            "graph": {
+                "four": "#E8E7C6",
+                "one": "#6E8592",
+                "three": "#DBA5A8",
+                "two": "#6E93A8"
+            },
+            "info": {
+                "display_name": "Standard",
+                "name": "STANDARD_THEME"
+            },
+            "items": {
+                "main": {
+                    "header": {
+                        "burgerBars": {
+                            "fontColor": "#f5f5f5"
+                        },
+                        "dropdown": {
+                            "fontColor": "#f5f5f5",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "styles": {
+                            "backgroundColor": "#6e8592"
+                        }
+                    },
+                    "panes": {
+                        "flyout": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592"
+                            }
+                        },
+                        "primary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#9db5c2",
+                                "fontColor": "#000000"
+                            }
+                        },
+                        "secondary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#9db5c2"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#6e8592",
+                                "fontColor": "#000000"
+                            }
+                        }
+                    },
+                    "portal": {
+                        "styles": {
+                            "backgroundColor": "#ffffff"
+                        }
+                    },
+                    "widgets": {
+                        "BAR_CHART_WIDGET_COMPONENT": {
+                            "barColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ],
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#000000"
+                        },
+                        "BUTTON_WIDGET_COMPONENT": {
+                            "backgroundColor": "#f5f5f5",
+                            "backgroundHoverColor": "#c2c2c2",
+                            "borderColor": "#cccccc",
+                            "fontColor": "#000000"
+                        },
+                        "FILTERABLE_LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#000000",
+                            "activeItemBackgroundColor": "#6e8592",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "FORM_WIDGET_COMPONENT": {
+                            "cardBackgroundColor": "#f5f5f5",
+                            "fontColor": "#000000",
+                            "sliderColor": "#6E8592",
+                            "titleColor": "#000000",
+                            "toggleColor": "#6E8592"
+                        },
+                        "GOOGLE_MAP_WIDGET_COMPONENT": {
+                            "mapTheme": ""
+                        },
+                        "GROUPING_LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#000000",
+                            "activeItemBackgroundColor": "#6e8592",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "LINE_CHART_WIDGET_COMPONENT": {
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#000000",
+                            "lineColors": [
+                                {
+                                    "stroke": "#6E8592"
+                                },
+                                {
+                                    "stroke": "#6E93A8"
+                                },
+                                {
+                                    "stroke": "#DBA5A8"
+                                },
+                                {
+                                    "stroke": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#000000",
+                            "activeItemBackgroundColor": "#6e8592",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "PIE_CHART_WIDGET_COMPONENT": {
+                            "cells": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "RADIAL_GAUGE_WIDGET_COMPONENT": {
+                            "backgroundColor": "#c2c2c2",
+                            "progressColor": "#6e8592"
+                        },
+                        "SPEEDOMETER_WIDGET": {
+                            "arrowColor": "#000000",
+                            "sectionColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "TEXT_WIDGET_COMPONENT": {
+                            "fontColor": "#000000",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "TOGGLE_WIDGET": {
+                            "backgroundColor": "#c2c2c2",
+                            "fontColor": "#000000",
+                            "offColor": "#ffffff",
+                            "onColor": "#6e8592"
+                        }
+                    }
+                }
+            },
+            "palette": {
+                "darkPrimary": "#c2c2c2",
+                "darkSecondary": "#425864",
+                "defaultPrimary": "#f5f5f5",
+                "defaultSecondary": "#6e8592",
+                "lightPrimary": "#ffffff",
+                "lightSecondary": "#9db5c2",
+                "primaryText": "#000000",
+                "secondaryText": "#000000"
+            }
+        },
+        "upgradesPerformed": {
+            "flyoutTitleUpgrade": true,
+            "headerBrandUpgrade": true,
+            "headerTitleUpgrade": true,
+            "widgetResizeUpgrade": true
+        },
+        "widgets": {
+            "brand": {
+                "externalScripts": [],
+                "id": "brand",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "value": "ClearBlade"
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "eaee6323-b2cd-40e1-8aba-0e6a54addc7e": {
+                "externalScripts": [],
+                "id": "eaee6323-b2cd-40e1-8aba-0e6a54addc7e",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": ".underline {\n  text-decoration: underline;\n}\n\npre {\n    white-space: pre-wrap;       /* Since CSS 2.1 */\n    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */\n    white-space: -pre-wrap;      /* Opera 4-6 */\n    white-space: -o-pre-wrap;    /* Opera 7 */\n    word-wrap: break-word;       /* Internet Explorer 5.5+ */\n}\n\n\n#csv_preview {\n    width: 100%;\n    height: 300px;\n    border-style: solid;\n    border-width: 1px;\n    border-color: black;\n    overflow-x: scroll;\n    overflow-y: scroll;\n}\n",
+                            "HTML": "\u003ch3\u003eThis Portal provides the ability to import a mass set of collections, users or devices.  \u003c/h3\u003e\n\u003col\u003e\n  \u003cli\u003e\n    \u003cdiv id =\"dev_login_div\" \u003e\n      Log in as Developer\u003cbr\u003e\n      Provide you developer credential here\n      \u003cbr\u003e\n      \u003cinput class=\"form-control\" id=\"devEmailInput\" type=\"text\" placeholder=\"Developer Email\"\u003e\n      \u003cbr\u003e\n      \u003cinput class=\"form-control\" id=\"devPasswordInput\" type=\"password\" placeholder=\"Developer Password\"\u003e\n      \u003cbr\u003e\n      \u003cbutton class=\"btn btn-primary\" id=\"submit_login_input\"\u003eSubmit\u003c/button\u003e\n            \u003cbr\u003e\n      \u003cdiv id=\"login_message\"\u003e\u003c/div\u003e\n    \u003c/div\u003e\n    \u003cdiv id =\"dev_loggedin_div\"\u003e\n      Developer log in successful\n    \u003c/div\u003e\n\n  \u003c/li\u003e\n  \u003cli\u003eChoose a CSV file to import from\n\u003cdiv id=\"inputs\" class=\"clearfix\"\u003e\n    \u003cinput class=\"btn btn-secondary\" type=\"file\" id=\"files\" name=\"files[]\" multiple /\u003e\n\u003c/div\u003e\n\u003chr/\u003e\n\u003coutput id=\"list\"\u003e\n\u003c/output\u003e\nPreview\n\u003cdiv id=\"csv_preview\"\u003e\n  \u003ctable id=\"contents\" style=\"width:100%; height:100%;\" border\u003e\n  \u003c/table\u003e\n\u003c/div\u003e\n\n\n\n  \u003c/li\u003e\n  \u003cli\u003eSelect type of asset being imported into (Collection, Users, Devices)\u003c/li\u003e\n    \n    \u003cselect class=\"form-control\" id=\"importAssetTypeSelect\"\u003e\n      \u003coption value=\"collection\"\u003eCollection\u003c/option\u003e\n      \u003coption value=\"users\"\u003eUsers\u003c/option\u003e\n      \u003coption value=\"devices\"\u003eDevices\u003c/option\u003e\n    \u003c/select\u003e\n    \n    \n    \u003cselect class=\"form-control\" style=\"margin-top:8px;\" id=\"collectionNameSelect\"\u003e\n      \n    \u003c/select\u003e\n  \u003c!-- \u003cli\u003eSelect column mappings\n    \u003cdiv id=\"columnMappingDiv\"\u003e\n      \u003cdiv class=\"row\"\u003e\n        \u003cdiv class=\"col\"\u003e\n          \u003cinput class=\"form-control\" value=\"a\" readonly/\u003e\n        \u003c/div\u003e\n          -\u003e\n        \u003cdiv class=\"col\"\u003e\n          \u003cselect class=\"form-control\"\u003e\n            \u003coption\u003efourth\u003c/option\u003e\n            \u003coption\u003efifth\u003c/option\u003e\n            \u003coption\u003esixth\u003c/option\u003e\n          \u003c/select\u003e\n        \u003c/div\u003e\n      \u003c/div\u003e\n    \u003c/div\u003e\n\n  \u003c/li\u003e\n  \u003cli\u003eFor users and devices select how passwords and keys will be created\u003c/li\u003e --\u003e\n  \u003cli\u003eRun the import\u003cbr\u003e\n    \u003cbutton class=\"btn btn-success\" id=\"submit_import_input\"\u003eImport\u003c/button\u003e\n    \u003cdiv id=\"importResults\"\u003e\u003c/div\u003e\n    \u003cpre\u003e\n      \u003cdiv id=\"importMessage\"\u003e\u003c/div\u003e\n    \u003c/pre\u003e\n  \u003c/li\u003e\n  \u003cli\u003eValidate your results\u003c/li\u003e\n\u003c/ol\u003e\n",
+                            "JavaScript": "//JavaScript\nvar importAssetType = \"collection\";\nvar importCollectionName = \"\";\nvar columns = [];\nvar csvColumns = [\"one\", \"two\", \"three\"];\nvar importColumns = [\"a\", \"b\", \"c\"];\nvar CSVdata = [];\n\n$(\"#dev_loggedin_div\").hide();\n$( \"#submit_import_input\" ).prop(\"disabled\",true);\n\n$( \"#submit_import_input\" ).click(function() {\n    // /api/v/1/collection/{systemKey}/{collectionName}\n    var newItemTemplate = {};\n    var itemArray = [];\n    var keys=[];\n    //build our template object based on the first row\n    for (var i=0; i\u003cCSVdata[0].length; i++){\n         newItemTemplate[(CSVdata[0][i]).toLowerCase().trim()] = \"\";\n         keys.push((CSVdata[0][i]).toLowerCase().trim());\n    }\n    for (var i =1; i\u003cCSVdata.length; i++){\n        var copiedObject = jQuery.extend(true, {}, newItemTemplate)\n        for(var j=0; j\u003cCSVdata[i].length;j++){\n            copiedObject[keys[j]] = CSVdata[i][j].trim()\n        }\n        itemArray.push(copiedObject);\n    }\n    var payload ={\n        platform_url:\"https://platform.clearblade.com\",\n        items : itemArray\n    }\n\n    if ($('#importAssetTypeSelect').val()==\"collection\"){\n        payload.path = \"load_collection\";\n        payload.collection = $('#collectionNameSelect').find(\":selected\").text();\n    } else if ($('#importAssetTypeSelect').val()==\"users\"){\n        payload.path = \"load_users\";\n    } else if ($('#importAssetTypeSelect').val()==\"devices\"){\n        payload.path = \"load_devices\";\n    }\n    \n    CB_PORTAL.Loader.show();\n    datasources.Batch_Util.sendData(payload).then(function(){\n        CB_PORTAL.Loader.hide();\n        var newItems = datasources.Batch_Util.latestData();\n        if (newItems.results.err){\n            $(\"#importMessage\").html(JSON.stringify(newItems.results.messages));\n            \n        }else {\n            $(\"#importResults\").html(newItems.results.result);\n            $(\"#importMessage\").html(JSON.stringify(newItems.results.messages));\n        }\n        \n    });\n    \n});\n\n\n$( \"#submit_login_input\" ).click(function() {\n    CB_PORTAL.Loader.show();\n    var payload = {\n        path:\"auth_developer\",\n        platform_url:\"https://platform.clearblade.com\",\n        developer_email:$(\"#devEmailInput\").val(),\n        developer_password:$(\"#devPasswordInput\").val()\n    }\n    var callbackDevAuth = function(response) {\n        CB_PORTAL.Loader.hide()\n        if ( response.results.err) {\n            $(\"#login_message\").text( \"Developer log in failed\" );\n            // console.log(JSON.stringify(response));\n        } else {\n            $(\"#dev_login_div\").hide();\n            $(\"#dev_loggedin_div\").show();\n            var dev_token = response.results.result.dev_token;//datasources.Batch_Util.latestData();\n            var pageData = datasources.pageData.latestData();\n            pageData.devToken = dev_token;\n            datasources.pageData.sendData(pageData);\n            var payload2 = {\n                path:\"get_collections\",\n                platform_url:\"https://platform.clearblade.com\",\n                dev_token : dev_token\n            }\n            var callbackCollections = function(response){\n                CB_PORTAL.Loader.hide();\n                if ( response.results.err) {\n                    $(\"#login_message\").text( \"Developer log in failed\" );\n                    // console.log(JSON.stringify(response));\n                } else {\n                    var collections = response.results.result;\n                    var pageData = datasources.pageData.latestData();\n                    pageData.collections = collections;\n                    datasources.pageData.sendData(pageData);\n                    $.each(collections, function (i, item) {\n                        $('#collectionNameSelect').append($('\u003coption\u003e', { \n                            value: item.collectionID,\n                            text : item.name \n                        }));\n                    });\n                }\n            };\n            CB_PORTAL.Loader.show()\n            datasources.Batch_Util.sendData(payload2).then(callbackCollections);\n            // console.log(JSON.stringify(response));\n        }\n    }\n    datasources.Batch_Util.sendData(payload).then(callbackDevAuth);\n});\n\n\n\n$(\"#collectionNameSelect\").change(function() {\n    // alert(\"selected: \"+$('#collectionNameSelect').val());\n    // getCollectionSchema($('#collectionNameSelect').val());\n});\n\n$(\"#importAssetTypeSelect\").change(function() {\n    importAssetType=$(\"#importAssetTypeSelect\").val();\n    if (importAssetType == \"collection\"){\n        var collections = datasources.pageData.latestData().collections;\n        $.each(collections, function (i, item) {\n            $('#collectionNameSelect').append($('\u003coption\u003e', { \n                value: item.collectionID,\n                text : item.name \n            }));\n        });\n        $(\"#collectionNameSelect\").show();\n    }else {\n        $(\"#collectionNameSelect\").hide(); \n        if (importAssetType ==\"users\") {\n            //getUserSchema\n        }else if (importAssetType=\"devices\"){\n            //getDeviceSchema\n        }\n    }\n    //alert( \"Handler for \"+$(\"#importAssetTypeSelect\").val()+\".change() called.\" );\n});\n\nif(isAPIAvailable()) {\n    $('#files').bind('change', handleFileSelect);\n}\nfunction isAPIAvailable() {\n    // Check for the various File API support.\n    if (window.File \u0026\u0026 window.FileReader \u0026\u0026 window.FileList \u0026\u0026 window.Blob) {\n    // Great success! All the File APIs are supported.\n    return true;\n    } else {\n    // source: File API availability - http://caniuse.com/#feat=fileapi\n    // source: \u003coutput\u003e availability - http://html5doctor.com/the-output-element/\n    document.writeln('The HTML5 APIs used in this form are only available in the following browsers:\u003cbr /\u003e');\n    // 6.0 File API \u0026 13.0 \u003coutput\u003e\n    document.writeln(' - Google Chrome: 13.0 or later\u003cbr /\u003e');\n    // 3.6 File API \u0026 6.0 \u003coutput\u003e\n    document.writeln(' - Mozilla Firefox: 6.0 or later\u003cbr /\u003e');\n    // 10.0 File API \u0026 10.0 \u003coutput\u003e\n    document.writeln(' - Internet Explorer: Not supported (partial support expected in 10.0)\u003cbr /\u003e');\n    // ? File API \u0026 5.1 \u003coutput\u003e\n    document.writeln(' - Safari: Not supported\u003cbr /\u003e');\n    // ? File API \u0026 9.2 \u003coutput\u003e\n    document.writeln(' - Opera: Not supported');\n    return false;\n    }\n}\nfunction handleFileSelect(evt) {\n    var files = evt.target.files; // FileList object\n    var file = files[0];\n    // read the file metadata\n    var output = ''\n        output += '\u003cspan style=\"font-weight:bold;\"\u003e' + escape(file.name) + '\u003c/span\u003e\u003cbr /\u003e\\n';\n        output += ' - FileType: ' + (file.type || 'n/a') + '\u003cbr /\u003e\\n';\n        output += ' - FileSize: ' + file.size + ' bytes\u003cbr /\u003e\\n';\n        output += ' - LastModified: ' + (file.lastModifiedDate ? file.lastModifiedDate.toLocaleDateString() : 'n/a') + '\u003cbr /\u003e\\n';\n    // read the file contents\n    printTable(file);\n    // post the results\n    $('#list').append(output);\n    $( \"#submit_import_input\" ).prop(\"disabled\",false)\n}\n\n\n\nfunction printTable(file) {\n    var reader = new FileReader();\n    reader.readAsText(file);\n    reader.onload = function(event){\n        var csv = event.target.result;\n        CSVdata = $.csv.toArrays(csv);\n        var html = '';\n        var counter = 0;\n        columns = [];\n        for(var row in CSVdata) {\n            html += '\u003ctr\u003e\\r\\n';\n            for(var item in CSVdata[row]) {\n                if (counter==0){\n                    columns.push(CSVdata[row][item]);\n                }\n                html += '\u003ctd\u003e' + CSVdata[row][item] + '\u003c/td\u003e\\r\\n';\n            }\n            html += '\u003c/tr\u003e\\r\\n';\n            counter++;\n        }\n        $('#contents').html(html);\n        $('#columnMappingDiv').text(columns.toString());\n        \n    };\n    reader.onerror = function(){ alert('Unable to read ' + file.fileName); };\n}\n// function showColumnMapping(){\n    // var createMappingRow = function(cmd, csvColumn) {\n        // \u003cdiv class=\"row\"\u003e\n        //     \u003cdiv class=\"col\"\u003e\n        //         \u003cinput class=\"form-control\" value=\"a\" readonly/\u003e\n        //     \u003c/div\u003e\n        //     -\u003e\n        //     \u003cdiv class=\"col\"\u003e\n        //         \u003cselect class=\"form-control\"\u003e\n        //             \u003coption\u003efourth\u003c/option\u003e\n        //             \u003coption\u003efifth\u003c/option\u003e\n        //             \u003coption\u003esixth\u003c/option\u003e\n        //         \u003c/select\u003e\n        //     \u003c/div\u003e\n        // \u003c/div\u003e\n    // };\n    // var cmd = $(\"#columnMappingDiv\")\n    // for (var i=0; i\u003c csvColumns.length; i++) {\n    //     createMappingRow(cmd, csvColumns[i]);\n    // }\n// }"
+                        }
+                    }
+                },
+                "tab": "c4349a0e-3fe1-42a4-b17c-87bad34377df",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "flyoutTitle": {
+                "externalScripts": [],
+                "id": "flyoutTitle",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 30,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "title": {
+                "externalScripts": [],
+                "id": "title",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Trebuchet MS",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            }
+        }
+    },
+    "description": null,
+    "last_updated": "17 Apr 18 15:32 UTC",
+    "name": "Batch Uploader",
+    "system_key": "ced288ad0bfcb5d1cbc9bddc917e",
+    "type": "custom_v2"
+}
