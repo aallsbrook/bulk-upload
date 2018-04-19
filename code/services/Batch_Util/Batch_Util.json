@@ -1,6 +1,6 @@
 {
     "current_version": 71,
-    "dependencies": "http,log,clearblade",
+    "dependencies": "http,log,clearblade,Batch_Constants",
     "logging_enabled": "false",
     "name": "Batch_Util",
     "params": [],
