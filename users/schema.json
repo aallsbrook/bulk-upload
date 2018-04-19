@@ -1,0 +1,37 @@
+{
+    "columns": [
+        {
+            "ColumnName": "address1",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "address2",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "city",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "state",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "zipcode",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "phone",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ],
+    "permissions": {
+        "Uploader": 6
+    }
+}
