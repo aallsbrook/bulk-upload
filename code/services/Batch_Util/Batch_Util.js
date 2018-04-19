@@ -68,7 +68,7 @@ function Batch_Util(req, resp){
     var authDeveloper = function() {
         
         var options = {
-            uri: platformURLl+"/admin/auth/",
+            uri: platformURL+"/admin/auth/",
             body: {"email":req.params.developer_email,"password":req.params.developer_password}
         };
         var requestObject = Requests();
