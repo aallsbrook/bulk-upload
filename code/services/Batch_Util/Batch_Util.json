@@ -1,0 +1,13 @@
+{
+    "current_version": 71,
+    "dependencies": "http,log,clearblade",
+    "logging_enabled": "false",
+    "name": "Batch_Util",
+    "params": [],
+    "permissions": {
+        "Anonymous": 1,
+        "Uploader": 1
+    },
+    "run_user": "",
+    "source": "Batch_Util.js"
+}
