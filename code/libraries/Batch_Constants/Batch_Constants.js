@@ -1,1 +1,1 @@
-var platformURL = "https://platform.clearblade.com"
+var platformURL = "https://platform.clearblade.com";
