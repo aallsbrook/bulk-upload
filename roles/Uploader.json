@@ -1,0 +1,82 @@
+{
+    "Description": "This role is used to upload assets into the System",
+    "ID": "d6d388ad0becfa90f7938efee874",
+    "Name": "Uploader",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 0
+        },
+        "AllServices": {
+            "Level": 0
+        },
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "Batch_Util",
+                "SystemKey": "ced288ad0bfcb5d1cbc9bddc917e"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": [],
+                "ID": "a4c2b0ad0bc4ebe6838f8b9bf001",
+                "Items": [],
+                "Level": 15,
+                "Name": "ImportCollection"
+            },
+            {
+                "Columns": [],
+                "ID": "c6dc8aad0bc6d78ba3c282abd8b001",
+                "Items": [],
+                "Level": 15,
+                "Name": "TestCollection1"
+            },
+            {
+                "Columns": [],
+                "ID": "d4dc8aad0bb4add1ea83bbb7af6b",
+                "Items": [],
+                "Level": 15,
+                "Name": "TestCollection2"
+            },
+            {
+                "Columns": [],
+                "ID": "e6dc8aad0b90bec2ec9fc197ba9e01",
+                "Items": [],
+                "Level": 15,
+                "Name": "TestCollection3"
+            }
+        ],
+        "Deployments": {
+            "Level": 0
+        },
+        "DevicesList": {
+            "Level": 6
+        },
+        "EdgesList": {
+            "Level": 0
+        },
+        "MsgHistory": {
+            "Level": 0
+        },
+        "Portals": [
+            {
+                "Level": 1,
+                "Name": "Batch Uploader",
+                "SystemKey": "ced288ad0bfcb5d1cbc9bddc917e"
+            }
+        ],
+        "Push": {
+            "Level": 0
+        },
+        "Timers": {
+            "Level": 0
+        },
+        "Topics": [],
+        "Triggers": {
+            "Level": 0
+        },
+        "UsersList": {
+            "Level": 6
+        }
+    }
+}
