@@ -1,0 +1,5 @@
+name, state, enabled, description, type, manufacturer
+pump101, in use, true, Drilling pump in Texas, rotary Screw, ACME Corp
+generator4, idle, true, Locamotive generator on line 45, 18 cylinder, MOM Corp
+thunderboard99, unprovisioned, false, Thunderboard for indoor agriculture, Thunderboard Sense 2, Silicon Labs
+racer2000, active, true, Passive RFID sensor for people tracking, Passive RFID, NXP 
