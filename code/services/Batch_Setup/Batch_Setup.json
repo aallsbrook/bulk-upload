@@ -1,0 +1,10 @@
+{
+    "current_version": 11,
+    "dependencies": "http,clearblade,Batch_Constants",
+    "logging_enabled": "false",
+    "name": "Batch_Setup",
+    "params": [],
+    "permissions": {},
+    "run_user": "",
+    "source": "Batch_Setup.js"
+}
