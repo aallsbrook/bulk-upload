@@ -11,21 +11,23 @@ This is an ipm package, which contains one or more reusable assets within the ip
 
 ## Setup
 
-_Add any setup instructions, such as an API Key_
+This package depends on two steps to setup
+1.  Modify the library called Batch_Constants to include the platform url you are using
+2.  Save and Test the service called Batch_Setup to create the uploader@clearblade.com user
 
-## API
-
-_Document your API here_
 
 ## Usage
 
-_Describe assets_
+Simply run the setup steps and open the portal Batch Uploader.  On the portal follow the steps.  
+Note: The portal offers the ability to log in as the developer to provide additional features for selecting and validating collection structures.  This feature can be turned off and all activities can run as the uploader user.
 
 ### Code Services
+Batch_Util - this is a single service used by the portal to perform the function of accepting the json records for import into the system.  It has methods for handling users, collections, and devices.
 
 ### Code Libraries
 
 ### Portals
+Batch Uploader Portal - This portal will let you select CSVs to import and then send that CSV data to be loaded as a collection, users, or devices.
 
 ### Collections
 
