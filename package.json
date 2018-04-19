@@ -1,0 +1,32 @@
+{
+    "author": {
+        "email": "aallsbrook@clearblade.com"
+    },
+    "clouds": [],
+    "description": "This IPM provides a portal interface for uploading bulk users, devices, and collections into an IoT system via CSV file.",
+    "domains": [],
+    "gateways": [],
+    "image_url": "https://i.imgur.com/6r5FFje.png",
+    "keywords": [
+        "clearblade",
+        "iot",
+        "platform",
+        "bulk",
+        "batch",
+        "csv",
+        "upload",
+        "load",
+        "users",
+        "collections",
+        "devices"
+    ],
+    "license": "MIT",
+    "name": "bulk-upload",
+    "private": false,
+    "prog_lang": [],
+    "protocols": [
+        "csv"
+    ],
+    "things": [],
+    "version": "1.0.0"
+}
